@@ -1,0 +1,88 @@
+*body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: #d49292;
+    background-color: #b14141;
+    
+}
+
+.body{
+    padding-top: 30px;
+    background-color: #6f6a6a;
+}
+
+.main h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question button{
+    margin: 10px;
+    padding: 23px 200px;
+    
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: rgb(172, 162, 162);
+}
+
+.question button:hover{
+    background-color: gainsboro;
+    padding: 25px 200px;
+}
+
+.ques{
+     display: flex;
+     justify-content: center;align-items: center;
+     border: 1px solid gray;
+     border-radius: 10px;
+     padding: 50px;
+     margin: 50px;
+}
+
+/* this is a point '.' */
+
+.solution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution button{
+    margin: 10px;
+    padding: 23px 200px;
+    
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: rgb(172, 162, 162);
+}
+
+.solution button:hover{
+    background-color: gainsboro;
+    padding: 25px 200px;
+}
+
+.soln{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+}
